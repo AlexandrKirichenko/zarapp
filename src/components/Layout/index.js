@@ -5,7 +5,7 @@ const Layout = ({id, title, urlBg, colorBg, children}) => {
     const sectionStyle = {};
 
     if (urlBg) {
-        sectionStyle.backgroundImage = `url(${urlBg})`;
+        sectionStyle.background = `url(${urlBg}) 50%/cover`;
     }
 
     if (colorBg) {
